@@ -14,11 +14,18 @@ color:#FFFFFF;
 border-radius: 10px;
 padding:10px;
 }
-.column-11,.column-12,.column-13,.grid-2{
+.column-11,.column-12,.column-13{
     border:1px solid #808080;
     border-radius: 10px;
     margin:10px;
 }
+@media screen and (min-width: 767px) {
+    .grid-2{
+        border:1px solid #808080;
+        border-radius: 10px;
+        margin:10px;
+  }
+} 
 @media screen and (min-width: 767px) {
     .main-grid{
         display: flex;
